@@ -4,7 +4,7 @@ import Meal from '../models/meal';
 export const CATEGORIES = [
   new Category('c1', 'Italian', '#f5428d'),
   new Category('c2', 'Quick & Easy', '#f54242'),
-  new Category('c3', 'Hamburgers', '#f5a442'),
+  new Category('c3', 'ManaSama', '#3c4c8f'),
   new Category('c4', 'German', '#f5d142'),
   new Category('c5', 'Light & Lovely', '#368dff'),
   new Category('c6', 'Exotic', '#41d95d'),
@@ -76,17 +76,17 @@ export const MEALS = [
   new Meal(
     'm3',
     ['c3'],
-    'Classic Hamburger',
-    'pricey',
-    'simple',
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
-    45,
+    'ManaSama',
+    'Guitarrista',
+    'compositor  y',
+    'https://i0.wp.com/thetacomaledger.com/wp-content/uploads/2023/02/Mana-Sama-Portrait.jpg?resize=700%2C445&ssl=1',
+    2.,
     [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
+      'Ves.teager',
+      'Girle',
+      'Matenro',
+      'Malice Mizer',
+      'Moi dix Mois',
       '2 Burger Buns'
     ],
     [
