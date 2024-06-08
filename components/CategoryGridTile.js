@@ -19,7 +19,7 @@ function CategoryGridTile({title, color, onPress}){
 const styles = StyleSheet.create({
     gridItem: {
         flex: 1,
-        margin: 16,
+        margin: 20,
         height: 150,
         borderRadius: 8,
         elevation: 4,
@@ -34,7 +34,8 @@ const styles = StyleSheet.create({
         flex: 1
     },
     buttonPressed: {
-        opacity: 0.5
+        opacity: 0.5,
+         backgroundColor: 'black'
     },
     innerContainer: {
         flex: 1,

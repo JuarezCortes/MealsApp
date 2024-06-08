@@ -14,11 +14,13 @@ export default function App() {
   
   return (
     <>
+
+
       <StatusBar style='dark' />
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
-              headerStyle: { backgroundColor: '#082238'},
+              headerStyle: { backgroundColor: 'black'},
               headerTintColor: 'white',
               contentStyle: { backgroundColor: '#F1E5D1'}
           }}
@@ -39,6 +41,7 @@ export default function App() {
           <Stack.Screen 
             name="MealDetail" 
             component={MealDetailScree} 
+            
           />
 
         </Stack.Navigator>

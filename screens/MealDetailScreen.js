@@ -18,9 +18,9 @@ function MealDetailScree({route, navigation}) {
                 affordability={selectedMeal.affordability}
             />
             <View>
-                <Text style={styles.subtitle}>grupos</Text>
+                <Text style={styles.subtitle}>Información</Text>
                 {selectedMeal.grupos.map(grupos => <Text style={styles.textContent} key={grupos}>{grupos}</Text>)}
-                <Text style={styles.subtitle}>Steps</Text>
+                <Text style={styles.subtitle}></Text>
                 {selectedMeal.steps.map(step => <Text style={styles.textContent} key={step}>{step}</Text>)}
             </View>
         </ScrollView>
@@ -33,11 +33,11 @@ export default MealDetailScree
 const styles = StyleSheet.create({
     image: {
         width: '100%',
-        height: 350
+        height: 330
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 24,
+        fontSize: 18,
         margin: 8,
         textAlign: 'center'
     },
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1
     },
     textContent: {
-        fontSize: 14,
+        fontSize: 12,
         margin: 4,
         marginVertical: 3,
         marginHorizontal: 24

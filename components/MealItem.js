@@ -15,6 +15,7 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }){
     return(
         <View style={styles.mailItem}>
             <Pressable 
+            
                 android_ripple={{ color: '#ccc'}}
                 style={({ pressed }) => (pressed ? styles.buttonPressed : null) } 
                 onPress={selectMealItemHandler}
